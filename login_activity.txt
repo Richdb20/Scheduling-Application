@@ -1,0 +1,136 @@
+Feb 13, 2022 7:13:57 PM Controllers.LoginController LogUser
+INFO: My first log event
+Feb 15, 2022 10:51:02 PM Controllers.LoginController LogUser
+INFO: Usertest2022-02-15T22:51:02.703117800-07:00[America/Denver]
+Feb 15, 2022 10:52:13 PM Controllers.LoginController LogUser
+INFO: User testTime of Login2022-02-15T22:52:13.053176800-07:00[America/Denver]
+Feb 15, 2022 10:52:55 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-15T22:52:55.251791100-07:00[America/Denver]
+Feb 20, 2022 4:06:08 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-20T16:06:08.754514900-07:00[America/Denver]
+Feb 20, 2022 4:17:44 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-20T16:17:44.476437700-07:00[America/Denver]
+Feb 20, 2022 4:18:29 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-20T16:18:29.128031-07:00[America/Denver]
+Feb 20, 2022 4:23:14 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-20T16:23:14.948036900-07:00[America/Denver]
+Feb 20, 2022 4:24:34 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-20T16:24:34.547247300-07:00[America/Denver]
+Feb 25, 2022 1:05:41 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-25T13:05:41.144158500-07:00[America/Denver]
+Feb 25, 2022 1:09:56 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-25T13:09:56.644428800-07:00[America/Denver]
+Feb 25, 2022 1:16:13 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-25T13:16:13.515004300-07:00[America/Denver]
+Feb 25, 2022 1:23:27 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-25T13:23:27.075672300-07:00[America/Denver]
+Feb 26, 2022 12:41:26 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-26T00:41:26.407804900-07:00[America/Denver]
+Feb 26, 2022 12:44:31 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-26T00:44:31.549192400-07:00[America/Denver]
+Feb 26, 2022 12:45:10 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-26T00:45:10.897669-07:00[America/Denver]
+Feb 26, 2022 12:46:20 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-02-26T00:46:20.138665700-07:00[America/Denver]
+Mar 04, 2022 8:01:34 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:01:34.923046500-07:00[America/Denver]
+Mar 04, 2022 8:07:24 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:07:24.413047300-07:00[America/Denver]
+Mar 04, 2022 8:23:28 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:23:28.050416-07:00[America/Denver]
+Mar 04, 2022 8:23:53 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:23:53.272848800-07:00[America/Denver]
+Mar 04, 2022 8:28:02 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:28:02.736313900-07:00[America/Denver]
+Mar 04, 2022 8:31:03 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:31:03.966703300-07:00[America/Denver]
+Mar 04, 2022 8:35:15 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:35:15.675487800-07:00[America/Denver]
+Mar 04, 2022 8:37:22 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:37:22.063911900-07:00[America/Denver]
+Mar 04, 2022 8:37:59 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:37:59.059903900-07:00[America/Denver]
+Mar 04, 2022 8:38:21 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:38:21.652376800-07:00[America/Denver]
+Mar 04, 2022 8:45:25 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:45:25.157180100-07:00[America/Denver]
+Mar 04, 2022 8:46:37 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T20:46:37.021130400-07:00[America/Denver]
+Mar 04, 2022 10:45:07 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T22:45:07.598353-07:00[America/Denver]
+Mar 04, 2022 10:53:11 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T22:53:11.127205-07:00[America/Denver]
+Mar 04, 2022 10:53:24 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T22:53:24.696259600-07:00[America/Denver]
+Mar 04, 2022 10:56:32 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T22:56:32.831582600-07:00[America/Denver]
+Mar 04, 2022 10:57:15 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T22:57:15.102056900-07:00[America/Denver]
+Mar 04, 2022 10:57:49 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-04T22:57:49.890852900-07:00[America/Denver]
+Mar 05, 2022 3:10:42 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-05T03:10:42.669946200-07:00[America/Denver]
+Mar 05, 2022 3:11:47 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-05T03:11:47.115951400-07:00[America/Denver]
+Mar 05, 2022 3:12:16 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-05T03:12:16.541087200-07:00[America/Denver]
+Mar 05, 2022 3:13:13 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-05T03:13:13.863354200-07:00[America/Denver]
+Mar 05, 2022 3:14:38 AM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-05T03:14:38.859444700-07:00[America/Denver]
+Mar 08, 2022 12:37:26 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-08T12:37:26.430717-07:00[America/Denver]
+Mar 08, 2022 12:39:54 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-08T12:39:54.716410500-07:00[America/Denver]
+Mar 08, 2022 1:15:13 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-08T13:15:13.809980400-07:00[America/Denver]
+Mar 08, 2022 1:17:10 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-08T13:17:10.168064100-07:00[America/Denver]
+Mar 08, 2022 1:20:45 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-08T13:20:45.385236200-07:00[America/Denver]
+Mar 09, 2022 2:40:44 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-09T14:40:44.149395300-07:00[America/Denver]
+Mar 09, 2022 2:58:21 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-09T14:58:21.166812500-07:00[America/Denver]
+Mar 13, 2022 6:36:20 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-13T18:36:20.189127300-07:00[America/Phoenix]
+Mar 13, 2022 6:39:00 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-13T18:39:00.805173-07:00[America/Phoenix]
+Mar 13, 2022 6:40:08 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-13T18:40:08.213254300-07:00[America/Phoenix]
+Mar 13, 2022 6:42:21 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-13T18:42:21.496564900-07:00[America/Phoenix]
+Mar 13, 2022 6:43:39 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-13T18:43:39.420770900-07:00[America/Phoenix]
+Mar 13, 2022 6:45:09 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-13T18:45:09.582743100-07:00[America/Phoenix]
+Mar 13, 2022 6:45:40 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-13T18:45:40.983444400-07:00[America/Phoenix]
+Mar 13, 2022 6:46:43 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-13T18:46:43.868842500-07:00[America/Phoenix]
+Mar 20, 2022 4:55:49 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T16:55:49.536791500-07:00[America/Phoenix]
+Mar 20, 2022 4:59:46 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T16:59:46.702089800-07:00[America/Phoenix]
+Mar 20, 2022 5:01:47 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T17:01:47.321182400-07:00[America/Phoenix]
+Mar 20, 2022 5:18:18 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T17:18:18.826180400-07:00[America/Phoenix]
+Mar 20, 2022 5:31:33 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T17:31:33.740727200-07:00[America/Phoenix]
+Mar 20, 2022 5:33:10 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T17:33:10.498217500-07:00[America/Phoenix]
+Mar 20, 2022 5:44:16 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T17:44:16.041987500-07:00[America/Phoenix]
+Mar 20, 2022 6:15:34 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T18:15:34.931304900-07:00[America/Phoenix]
+Mar 20, 2022 6:18:06 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T18:18:06.978431900-07:00[America/Phoenix]
+Mar 20, 2022 6:20:16 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T18:20:16.105701400-07:00[America/Phoenix]
+Mar 20, 2022 6:21:14 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T18:21:14.467327900-07:00[America/Phoenix]
+Mar 20, 2022 6:22:25 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T18:22:25.373681800-07:00[America/Phoenix]
+Mar 20, 2022 6:28:53 PM Controllers.LoginController LogUser
+INFO: User=test Time of Login=2022-03-20T18:28:53.060505400-07:00[America/Phoenix]

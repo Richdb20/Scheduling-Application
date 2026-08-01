@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ReportsController">
+   <children>
+      <TableView fx:id="ReportTableOne" layoutX="49.0" layoutY="251.0" prefHeight="187.0" prefWidth="1046.0">
+        <columns>
+          <TableColumn fx:id="AppointmentID" prefWidth="102.0" text="Appointment ID" />
+          <TableColumn fx:id="Title" prefWidth="122.0" text="Title" />
+            <TableColumn fx:id="Type" prefWidth="130.0" text="Type" />
+            <TableColumn fx:id="Description" prefWidth="130.0" text="Description" />
+            <TableColumn fx:id="StartDate" prefWidth="140.0" text="Start Date &amp; Time" />
+            <TableColumn fx:id="EndDate" prefWidth="122.0" text="End Date &amp; Time" />
+            <TableColumn fx:id="CustomerID" prefWidth="149.0" text="Customer ID" />
+            <TableColumn fx:id="contactID" prefWidth="75.0" text="Contact ID" />
+        </columns>
+      </TableView>
+      <Label layoutX="478.0" layoutY="36.0" text="Reports">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="ReportTableTwo" layoutX="49.0" layoutY="520.0" prefHeight="225.0" prefWidth="1046.0">
+        <columns>
+          <TableColumn fx:id="ContactID" minWidth="3.0" prefWidth="182.0" text="Contact ID" />
+            <TableColumn fx:id="ContactName" prefWidth="176.0" text="Contact Name" />
+            <TableColumn fx:id="ContactEmail" prefWidth="139.0" text="Contact Email" />
+        </columns>
+      </TableView>
+      <Button fx:id="ExitButton" layoutX="1011.0" layoutY="761.0" mnemonicParsing="false" onAction="#exitToMain" prefHeight="25.0" prefWidth="45.0" text="Exit" />
+      <Label layoutX="49.0" layoutY="80.0" text="View Total Customer Appointments by Month/Type">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="182.0" text="Contact Schedule ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ComboBox fx:id="MonthComboBox" layoutX="46.0" layoutY="107.0" prefWidth="150.0" promptText="Select Month" />
+      <ComboBox fx:id="ScheduleComboBox" layoutX="49.0" layoutY="209.0" onAction="#onContactSelected" prefWidth="150.0" promptText="Select Contact" />
+      <ComboBox fx:id="TypeComboBox" layoutX="214.0" layoutY="107.0" prefWidth="150.0" promptText="Select Type" />
+      <Label layoutX="375.0" layoutY="115.0" text="Total Count :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="49.0" layoutY="460.0" text="View Contact Information">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="ContactComboBox" layoutX="49.0" layoutY="485.0" onAction="#onViewContactSelected" prefWidth="150.0" promptText="Select Contact" />
+      <Label fx:id="ValueLabel" layoutX="453.0" layoutY="116.0" text="?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="GenerateButton" layoutX="46.0" layoutY="141.0" mnemonicParsing="false" onAction="#onGenerate" prefHeight="25.0" prefWidth="73.0" text="Generate">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

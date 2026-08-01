@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="577.0" prefWidth="584.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="581.0" prefWidth="584.0">
+         <children>
+            <Label fx:id="loginPageLabel" layoutX="245.0" layoutY="49.0" text="Login Page">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameLabel" layoutX="125.0" layoutY="157.0" text="Username">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="passwordLabel" layoutX="125.0" layoutY="210.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="userName" layoutX="228.0" layoutY="153.0" promptText="Enter User Name" />
+            <Button fx:id="loginButton" layoutX="207.0" layoutY="318.0" mnemonicParsing="false" onAction="#login" text="Login" />
+            <Button fx:id="exitButton" layoutX="341.0" layoutY="318.0" mnemonicParsing="false" onAction="#ExitApp" text="Exit" />
+            <Label fx:id="SchedulingAppLabel" layoutX="201.0" layoutY="7.0" text="Scheduling Application">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="password" layoutX="228.0" layoutY="206.0" promptText="Enter Password" />
+            <Label layoutX="14.0" layoutY="545.0" text="TimeZone:" />
+            <Label fx:id="zoneID" layoutX="76.0" layoutY="545.0" text="Time" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

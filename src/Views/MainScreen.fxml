@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainScreenController">
+   <children>
+      <TableView fx:id="AppointmentTable" layoutX="8.0" layoutY="376.0" prefHeight="366.0" prefWidth="1035.0">
+        <columns>
+          <TableColumn fx:id="appointmentIDCol" prefWidth="100.0" text="ApptID" />
+          <TableColumn fx:id="titleCol" text="Title" />
+            <TableColumn fx:id="descriptionCol" prefWidth="150.0" text="Description" />
+            <TableColumn fx:id="locationCol" prefWidth="106.0" text="Location" />
+            <TableColumn fx:id="typeCol" prefWidth="113.0" text="Type" />
+            <TableColumn fx:id="startCol" prefWidth="106.0" text="Start " />
+            <TableColumn fx:id="endCol" prefWidth="116.0" text="End" />
+            <TableColumn fx:id="customerIDCol" prefWidth="101.0" text="Customer ID" />
+            <TableColumn fx:id="userIDCol" prefWidth="78.0" text="User ID" />
+            <TableColumn fx:id="contactIDCol" prefWidth="84.0" text="Contact ID" />
+        </columns>
+      </TableView>
+      <Label layoutX="9.0" layoutY="345.0" prefHeight="27.0" prefWidth="200.0" text="Appointment Schedule">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="viewAllRadioButton" layoutX="320.0" layoutY="350.0" mnemonicParsing="false" onAction="#viewAllAppointments" selected="true" text="View all">
+         <toggleGroup>
+            <ToggleGroup fx:id="AppointmentToggleGroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="viewMonthRadioButton" layoutX="437.0" layoutY="350.0" mnemonicParsing="false" onAction="#viewByMonth" text="View by Month" toggleGroup="$AppointmentToggleGroup" />
+      <RadioButton fx:id="viewWeekRadioButton" layoutX="592.0" layoutY="350.0" mnemonicParsing="false" onAction="#viewByWeek" text="View by week" toggleGroup="$AppointmentToggleGroup" />
+      <DatePicker layoutX="746.0" layoutY="345.0" prefHeight="25.0" prefWidth="221.0" promptText="Select Date" showWeekNumbers="true" />
+      <Label layoutX="9.0" layoutY="25.0" text="Customers">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="CustomerTable" layoutX="8.0" layoutY="54.0" prefHeight="218.0" prefWidth="1035.0">
+        <columns>
+          <TableColumn fx:id="cIDCol" prefWidth="86.0" text="Customer ID" />
+          <TableColumn fx:id="cnameCol" minWidth="160.0" prefWidth="202.0" text="Name" />
+            <TableColumn fx:id="cAddressCol" minWidth="192.0" prefWidth="240.0" text="Address" />
+            <TableColumn fx:id="cPostalCodeCol" minWidth="132.0" prefWidth="135.0" text="Postal Code" />
+            <TableColumn fx:id="cPhoneNumberCol" minWidth="144.0" prefWidth="166.0" text="Phone Number" />
+            <TableColumn fx:id="cStateCol" prefWidth="132.0" text="State/Province" />
+            <TableColumn fx:id="cCountryCol" prefWidth="75.0" text="Country" />
+        </columns>
+      </TableView>
+      <Button fx:id="addCustomerButton" layoutX="157.0" layoutY="285.0" minWidth="150.0" mnemonicParsing="false" onAction="#addCustomer" text="Add Customer" />
+      <Button fx:id="updateCustomerButton" layoutX="382.0" layoutY="285.0" minWidth="150.0" mnemonicParsing="false" onAction="#updateCustomer" text="Update Customer" />
+      <Button fx:id="deleteCustomerButton" layoutX="610.0" layoutY="285.0" minWidth="125.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="25.0" prefWidth="125.0" text="Delete Customer" />
+      <Button fx:id="addAppointmentButton" layoutX="157.0" layoutY="755.0" minWidth="150.0" mnemonicParsing="false" onAction="#addAppointment" text="Add Appointment" />
+      <Button fx:id="updateAppointmentButton" layoutX="382.0" layoutY="755.0" minWidth="150.0" mnemonicParsing="false" onAction="#updateAppointment" text="Update Appointment" />
+      <Button fx:id="deleteAppointmentButton" layoutX="610.0" layoutY="755.0" minWidth="125.0" mnemonicParsing="false" onAction="#deleteAppointment" prefHeight="25.0" prefWidth="125.0" text="Delete Appointment" />
+      <Button fx:id="reportsButton" layoutX="922.0" layoutY="755.0" mnemonicParsing="false" onAction="#toReports" text="View Reports" />
+   </children>
+</AnchorPane>
